@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype'),
+}
+
+body {
+  background-image: url('./assets/Vector\ for\ deskop.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  body {
+    background-image: url('./assets/Vector\ for\ mobile.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+  } 
+}
+
+.eventbg{
+  background-image: url('./assets/images/Screenshot\ \(27\)\ 1\ \(1\).png');
+}
